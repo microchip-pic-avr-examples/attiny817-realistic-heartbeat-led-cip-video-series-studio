@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "hb-busywait", "hb-busywait\hb-busywait.cproj", "{154A5EC9-C9AB-49DB-8A27-B226D12BC5EC}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "hb-cip", "hb-cip\hb-cip.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "hb-interrupt", "hb-interrupt\hb-interrupt.cproj", "{2D7B4E69-5673-4DDA-B208-E7E53024F9CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{154A5EC9-C9AB-49DB-8A27-B226D12BC5EC}.Debug|AVR.ActiveCfg = Debug|AVR
+		{154A5EC9-C9AB-49DB-8A27-B226D12BC5EC}.Debug|AVR.Build.0 = Debug|AVR
+		{154A5EC9-C9AB-49DB-8A27-B226D12BC5EC}.Release|AVR.ActiveCfg = Release|AVR
+		{154A5EC9-C9AB-49DB-8A27-B226D12BC5EC}.Release|AVR.Build.0 = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+		{2D7B4E69-5673-4DDA-B208-E7E53024F9CC}.Debug|AVR.ActiveCfg = Debug|AVR
+		{2D7B4E69-5673-4DDA-B208-E7E53024F9CC}.Debug|AVR.Build.0 = Debug|AVR
+		{2D7B4E69-5673-4DDA-B208-E7E53024F9CC}.Release|AVR.ActiveCfg = Release|AVR
+		{2D7B4E69-5673-4DDA-B208-E7E53024F9CC}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

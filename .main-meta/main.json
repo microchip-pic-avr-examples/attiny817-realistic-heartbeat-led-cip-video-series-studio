@@ -1,0 +1,88 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.studio.project.attiny817-realistic-heartbeat-led-cip-video-series-studio",
+        "version": "1.0.0",
+        "displayName": "Realistic Heartbeat LED methods | Core Independent Application Examples (CIP) Video Series",
+        "projectName": "attiny817-realistic-heartbeat-led-cip-video-series-studio",
+        "shortDescription": "This repository is related to our Realistic Heartbeat LED video on YouTube and contains three different methods for implementing a pulsating heartbeat LED using a busy-wait, periodic interrupt and Core Independent Peripherals (CIP) approach.",
+        "ide": {
+            "name": "Studio",
+            "semverRange": ">=7.0.2397"
+        },
+        "compiler": [
+			{
+				"name": "AVR-GCC",
+				"semverRange": "^5.4.0"
+			}
+		],
+        "dfp": {
+            "name": "ATtiny_DFP",
+            "semverRange": "^1.6.326"
+        },
+        "configurator": {
+        	"name": "N/A",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "ATtiny817",
+                "versionRange": "*"
+            }
+        },
+        "author": "Henrik Nyholm",
+        "subcategories": [
+            [
+               "Peripherals", "TCA"
+            ],
+            [
+               "Peripherals", "TCB"
+            ],            			
+            [
+               "Peripherals", "TCD"
+            ],
+            [
+                "Peripherals", "RTC"
+            ],
+            [
+                "Peripherals", "CCL"
+            ],
+            [
+                "Development Kit", "ATtiny817 Xplained Pro"
+            ]
+        ],
+        "peripherals": [
+            "TCA", "TCB", "TCD", "RTC", "CCL"
+        ],
+        "keywords": [
+            "Heartbeat",
+            "LED",
+            "CIP",
+            "Core Independent",
+            "BPM",
+            "Glue Logic", 
+            "Busy-wait",
+            "Periodic Interrupts",
+            "tinyAVR-1",
+            "Video Series",
+            "YouTube"
+        ],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./README.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
