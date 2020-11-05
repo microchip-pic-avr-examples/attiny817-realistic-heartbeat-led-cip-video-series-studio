@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny817-realistic-heartbeat-led-cip-video-series-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Realistic Heartbeat LED methods | Core Independent Application Examples (CIP) Video Series",
         "projectName": "attiny817-realistic-heartbeat-led-cip-video-series-studio",
         "shortDescription": "This repository is related to our Realistic Heartbeat LED video on YouTube and contains three different methods for implementing a pulsating heartbeat LED using a busy-wait, periodic interrupt and Core Independent Peripherals (CIP) approach.",
